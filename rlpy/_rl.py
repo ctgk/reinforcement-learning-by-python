@@ -1,4 +1,4 @@
-def pyboilerplate() -> str:
+def rlpy() -> str:
     """Return a string.
 
     Returns
@@ -8,7 +8,7 @@ def pyboilerplate() -> str:
 
     Examples
     --------
-    >>> pyboilerplate()
-    'pyboilerplate'
+    >>> rlpy()
+    'rlpy'
     """
-    return 'pyboilerplate'
+    return 'rlpy'
