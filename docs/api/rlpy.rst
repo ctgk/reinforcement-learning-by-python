@@ -1,10 +1,10 @@
-pyboilerplate package
-=====================
+rlpy package
+============
 
 Module contents
 ---------------
 
-.. automodule:: pyboilerplate
+.. automodule:: rlpy
    :members:
    :undoc-members:
    :show-inheritance:

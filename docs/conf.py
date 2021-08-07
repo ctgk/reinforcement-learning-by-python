@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'pyboilerplate'
+project = 'rlpy'
 copyright = '2020, ctgk'
 author = 'ctgk'
 

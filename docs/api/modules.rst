@@ -1,7 +1,7 @@
-pyboilerplate
-=============
+rlpy
+====
 
 .. toctree::
    :maxdepth: 4
 
-   pyboilerplate
+   rlpy

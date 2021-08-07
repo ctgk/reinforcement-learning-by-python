@@ -1,7 +1,6 @@
-# Python-boilerplate
+# Reinforcement Learning
 
-TODO: short introduction of this project. The objective or the motivation
-behind this project.
+Unofficial implementation of Reinforcement Learning by Python
 
 ## Getting Started
 
