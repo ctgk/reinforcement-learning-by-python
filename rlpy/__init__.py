@@ -1,11 +1,15 @@
 """Unofficial package of Reinforcement Learning by Python."""
 
+from rlpy._action import Action
+from rlpy._cell import Cell
 from rlpy._state import State
 
 __version__ = '0.0.1'
 
 
 _classes = [
+    Action,
+    Cell,
     State,
 ]
 
