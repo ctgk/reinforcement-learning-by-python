@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from rlpy._action import Action
+
 
 class State:
     """Class for an agent state."""
@@ -68,3 +70,23 @@ class State:
             Hash value of the agent state.
         """
         return hash((self._row, self._col))
+
+    def act(self, action: Action) -> State:
+        """Act an agent given an action and return its next state.
+
+        Parameters
+        ----------
+        action : Action
+            Action an agent take.
+
+        Returns
+        -------
+        State
+            Next state of the agent after action.
+        """
+        return State(
+            *tuple(
+                p + a for p, a
+                in zip((self.row, self.col), action.value)
+            ),
+        )
